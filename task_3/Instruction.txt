@@ -1,0 +1,148 @@
+Mini Project: Toggle Text (ON / OFF)
+
+(HTML + CSS + JavaScript)
+
+🎯 Project Goal
+
+The goal of this mini project is to help you practice:
+
+Basic HTML structure
+
+Core CSS styling
+
+JavaScript DOM manipulation
+
+Handling user interactions (click events)
+
+By the end of this project, you will understand how JavaScript connects with HTML and CSS to change content dynamically.
+
+⚠️ No CSS or JavaScript frameworks are allowed (Bootstrap, Tailwind, React, etc.).
+
+✅ What You Must Create (Required)
+1️⃣ Heading Section (Text Display)
+
+Create a heading using an h1 tag
+
+The heading must initially display:
+OFF
+
+Style the heading using:
+
+text-align
+
+font-size
+
+font-weight
+
+text-transform
+
+2️⃣ Button Section (Toggle Action)
+
+Create a button labeled:
+Toggle
+
+When the button is clicked:
+
+If the text shows OFF, change it to ON
+
+If the text shows ON, change it back to OFF
+
+The button must be connected using JavaScript (onclick or event listener)
+
+3️⃣ Layout Requirements
+
+Center the heading and button on the page
+
+Use CSS to:
+
+Align items vertically and horizontally
+
+Add spacing between the heading and button
+
+The layout must remain clean and readable on all screen sizes
+
+🎨 CSS Requirements (Mandatory)
+
+You must use the following CSS features:
+
+🔹 Display
+
+Use at least one:
+
+display: block
+
+display: inline-block
+
+🔹 Flexbox
+
+Use display: flex to:
+
+Center the content on the page
+
+Must include at least one:
+
+justify-content
+
+align-items
+
+flex-direction
+
+🔹 Text Styling
+
+Apply:
+
+text-transform
+
+text-align
+
+font-size
+
+🔹 Fonts
+
+Use:
+
+font-family
+
+font-weight
+
+🔹 Background
+
+Use a background color for the page or container
+
+Ensure text remains readable
+
+📱 Responsive Design (Mandatory)
+
+Your project must be responsive.
+
+Requirements:
+
+Content must stay centered on small screens
+
+Text must remain readable
+
+Button must resize properly
+
+No horizontal scrolling
+
+🧠 JavaScript Requirements (Mandatory)
+
+Select elements using:
+
+getElementById or querySelector
+
+Use a variable to track the current state (ON / OFF)
+
+Use a click event to:
+
+Change the text content of the heading
+
+Toggle between ON and OFF
+
+📌 Expected Behavior
+
+Page loads → heading shows OFF
+
+User clicks Toggle → heading changes to ON
+
+User clicks Toggle again → heading changes back to OFF
