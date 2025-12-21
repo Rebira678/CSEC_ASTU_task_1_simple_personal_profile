@@ -1,0 +1,81 @@
+𝙼𝚛. ｏｒｉｇｉｎａｌ 🧛‍♀️, [12/20/2025 9:46 AM]
+📌 4th Session Task – Todo List App (DOM Manipulation)
+
+🎯 Objective
+Build a fully interactive Todo List Application using HTML, CSS, and JavaScript to practice DOM manipulation, events, and dynamic UI updates.
+
+What You Are Building
+You will create a Todo List App where users can:
+
+- Add tasks
+- Mark tasks as completed
+- Delete tasks
+- See task statistics
+
+🧱Required Features & Explanation
+
+1️⃣ Page Layout
+
+Your page must contain:
+  -   A heading (`Todo List App`)
+  -   An input field to type a todo
+  -   Add Todo button
+  -   A list (`ul`) where todos appear
+  -   Total todos
+  -   Completed todos
+  -   A Clear All button
+
+2️⃣ Adding a Todo
+When the user types a todo and clicks Add Todo:
+  - Create a new list item dynamically
+  - The todo text must appear in the list
+  - Clear the input field after adding
+  - Increase the total todo count
+
+❗️ If the input is empty:
+ Show an error message Using javascript alert
+
+
+3️⃣ Todo Item Structure
+Each todo item must include:
+ - Todo text
+ - Complete button
+ - Delete button
+
+
+ 4️⃣ Completing a Todo
+ When Complete is clicked:
+  - Toggle the todo as completed
+  - Add/remove a CSS class (e.g. line-through, faded color)
+  - Update the **completed todos count
+
+5️⃣ Deleting a Todo
+When Delete is clicked:
+ - Remove the todo from the DOM
+ - Decrease total todo count
+ - Update completed count if needed
+
+
+6️⃣ Clear All Todos
+When Clear All is clicked:
+  - Remove all todos from the list
+  - Reset total and completed counts
+
+
+
+⭐️ Bonus Challenges (Optional but Recommended)
+  - Disable Add Todo button if input is empty* Save todos using localStorage
+  -  Show message when no todos exist
+  -  Edit a todo text
+
+
+📤 Submission Instructions
+-  Push your project to GitHub
+-  Required files:
+
+   index.html
+   style.css
+   script.js
+
+
+Happy Coding
