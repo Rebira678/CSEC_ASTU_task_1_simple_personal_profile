@@ -1,0 +1,125 @@
+:root {
+  --bg1: #000;
+  --bg2: #fff;
+  --card: #ffffff;
+  --text: #000;
+  --accent: #000;
+}
+
+/* Girl Theme */
+.girl-theme {
+  --bg1: #ff80b5;
+  --bg2: #c77dff;
+  --card: #ffffff;
+  --text: #333;
+  --accent: #ff4d9d;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Theme top-right */
+.theme-box {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.theme-box span {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.container {
+  background: var(--card);
+  padding: 25px;
+
+  width: 90%;            /* flexible width */
+  max-width: 700px;      /* maximum size */
+
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+
+h1 {
+  text-align: center;
+  color: var(--accent);
+  font-size: 28px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.high {
+  border-left: 6px solid red;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.clear-btn {
+  width: 100%;
+  margin-top: 10px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+}
+
+#emptyMessage {
+  text-align: center;
+  color: gray;
+}
+.time-box {
+  display: flex;          /* puts inputs side by side */
+  gap: 8px;               /* space between them */
+}
+
+.time-box input {
+  flex: 1;                /* equal width */
+  height: 36px;           /* smaller height */
+  padding: 6px 8px;       /* compact padding */
+  font-size: 14px;        /* smaller text */
+  border-radius: 6px;
+}
