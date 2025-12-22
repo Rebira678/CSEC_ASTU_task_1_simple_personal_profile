@@ -48,6 +48,8 @@ The project is designed to practice **DOM manipulation**, **event handling**, an
 3. Start adding your todos
 
 ---
+## To see Live
+[click here](https://csec-astu-web-developement-bootcamp.vercel.app/)
 
 ## 💾 Local Storage
 Todos are saved in the browser using **localStorage**, so data remains even after refreshing the page.
